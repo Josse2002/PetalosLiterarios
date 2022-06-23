@@ -1,0 +1,325 @@
+@media (max-width:1070px){
+    .barra {
+ display: flex;
+ flex-direction: column;
+     }
+     .cajaes{
+         margin-top: 2%;
+     }
+     .texto{
+         margin-top: 10%;
+     }
+     .texto p{
+         margin-top: 2rem;
+         line-height: 1;
+     }
+     .barra img{
+         width: 40%;
+     }
+     .texti{
+      line-height: 1;
+      width: 80%;
+      margin: 2% 10%;
+     }
+ }
+ @media (min-width:973px){
+      .cajaes{
+          margin-top: -5%;
+      }
+     
+  }
+  @media (max-width:1037px){
+      .columnastodo{
+          display:flex;
+          flex-direction: column;
+          
+      }
+      .columnas p{
+          margin-right:3rem;
+      }
+  }
+  @media (max-width:1193px){
+     .nosotros-videote{
+         display: flex;
+         flex-direction: column;
+         
+ 
+     }
+     .nostext{
+         margin-top: -4%;
+     }
+     .nosotros-videote p {
+         margin-right:1rem;
+         text-align: center;
+         
+     }
+     .video{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         margin-left: 1rem;
+         margin-right: 1rem;
+         margin-top: 2%;
+     }
+ }
+ @media (max-width:720px){
+     .video{
+         width: 95%;
+         margin-top: 2%;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+     .video video{
+         width: 80%;
+         height: 30%;
+         
+     }
+ }
+ @media (max-width:1300px){
+ .todoform{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .anuncio{
+     width: 100%;
+     margin-right:3rem;
+     margin-left:1rem;
+     text-align: center;
+ }
+ .anuncio h3{
+     width: 100%;
+     text-align: center;
+     margin-right:2rem;
+     margin-left: -10px;
+ }
+ .form{
+     width: 37rem;
+     margin-right: 3rem;
+     margin-left: 1rem;
+ }
+ .formulario{
+     height: 140rem;
+ }
+ .say{
+     position: relative;
+     top: -14rem;
+     height: 300rem;
+ }
+ .columna{
+     display: flex;
+     flex-direction: column;
+ }
+ .comentario{
+     width:100%;
+     margin-right:2rem;
+     margin-left: 10px;
+ }
+ .comentario img{
+     width: 20rem;;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     left: -3%;
+ }
+ .comentario p{
+     width: 30rem;
+ }
+ 
+ }
+ @media (min-width:919px){
+ .say{
+     height:305rem;
+ }
+ 
+ }
+ @media (min-width:1142px){
+     .say{
+         height:310rem;
+     }
+     
+ }
+  @media (min-width:1300px){
+        .say{
+            height: 120rem;;
+        }
+     }
+     @media (max-width:1070px){
+         .barr {
+            display: flex;
+             flex-direction: column;
+             width: 100%;
+             justify-content: center;
+             align-items: center;
+             margin-right:3rem;
+             margin-left: - 10px;
+             text-align:center;
+         }
+     }
+     @media (min-width:500px){
+         .barr{
+             width: 90%;
+         }
+         .comentario{
+             width: 90%;
+             display: flex;
+             justify-content: center;
+             margin-left:5%;
+         }
+         .anuncio{
+             width: 90%;
+             margin-left: 10%;
+         }
+         .columnas{
+             width: 90%;
+         }
+     }
+     @media (max-width:1300px){
+         .main{
+             display:flex;
+             flex-direction: column;
+             justify-content: center;
+             height:400rem;
+             align-items: center;
+         }
+         .categoria{
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             width: 100%;
+             justify-content: center;
+             
+         }
+         .Categoriascaja h2{
+             margin-top: 40%;
+         }
+         .Categoriascaja{
+             position:relative;
+             top: -15rem;
+         }
+         .obraspopular{
+             width: 100%;
+             display: flex;
+             flex-direction: column;
+             margin-top: 4rem;
+             position:relative;
+             top: -5rem;
+         }
+         
+         
+         .obra{
+             display: flex;
+             flex-direction: column;
+             width: 90%;
+             justify-content: center;
+         }
+         .contenedorbra{
+             display: flex;
+             flex-direction: column;
+         }
+         .contenedorbra img{
+             width: 35rem;
+             height: 50rem;
+         }
+         .contenedorbra p{
+             width:35rem;
+             text-align: center;
+         }
+         .obraspopular h2{
+             text-align: center;
+         }
+ 
+          
+        .curses{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-left: -4rem;
+            margin-right: 4rem;
+            text-align: center;
+          } 
+          .curses p{
+ width: 90%;
+ 
+          }
+     }
+    @media (max-width:1066px){
+ .obra{
+     margin: 2rem 2rem;
+ }
+    }
+ 
+    @media (max-width:1272px){
+     .Categoriascaja h2{
+         margin-top: 20%;
+     }
+ }
+     @media (max-width:778px){
+         .Categoriascaja h2{
+             margin-top: 40rem;;
+         }
+     }
+     @media (max-width:984px){
+         .Categoriascaja h2{
+             margin-top: 75%;
+         }
+     }
+     @media (min-width:984px){
+         .Categoriascaja h2{
+             margin-top: 45rem;;
+         }
+     }
+     @media (min-width:1300px){
+         .Categoriascaja h2{
+             margin-top: 20rem;;
+         }
+     }
+     @media (max-width:878px){
+         .Categoriascaja h2{
+             margin-top: 70%;
+         }
+     }
+     @media (max-width:578px){
+         .Categoriascaja h2{
+             margin-top: 100%;
+         }
+     }
+     @media (min-width:578px){
+         .obraspopular{
+             position: relative;
+             top:-20rem;
+         }
+         }
+         @media (min-width:500px){
+             .obraspopular{
+                 position: relative;
+                 top:-20rem;
+             }
+             }
+             @media (min-width:993px){
+                 .obraspopular{
+                     position: relative;
+                     top:-20rem;
+                 }
+                 }
+                 @media (min-width:1300px){
+                     .curses{
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: center;
+                         width: 70%;
+                         align-items: center;
+                         margin-top: 10rem;
+                     }
+                     .obraspopular h2{
+                         color: white;
+                         margin-top: 35%;
+                         color: white;
+                         font-size: 4rem;
+                         text-align:center;
+                     }
+                 
+                    }

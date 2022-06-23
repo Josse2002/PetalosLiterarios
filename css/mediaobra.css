@@ -1,0 +1,258 @@
+@media (max-width:1070px){
+
+    .cajaes{
+        margin-top: 2%;
+    }
+    .texto{
+        margin-top: 10%;
+    }
+    .texto p{
+        margin-top: 2rem;
+        line-height: 1;
+    }
+    .barra img{
+        width: 40%;
+    }
+    .texto{
+        animation-name: lol;
+        animation-duration: 2s;
+    }
+    @keyframes lol{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: .5;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+}
+@media(max-width:797px){
+    .barra img{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        margin-top: 8%;
+    }
+}
+@media(max-width:1060px){
+    .contenedorbra{
+        display: flex;
+        flex-direction:column;
+
+    }
+    .obra{
+        width:80%;
+        margin: 2% 10%;
+    }
+    .obra p{
+        width: 80%;
+        margin: 2% 10%;
+    }
+}
+@media(max-width:615px){
+.categorias{
+    height: 50rem;
+    
+    
+}
+
+}
+@media (max-width:1070px){
+    .barr {
+       display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right:3rem;
+        margin-left: - 10px;
+        text-align:center;
+    }
+}
+@media (max-width:1070px){
+    .barr{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin:1% 10%;
+        position: relative;
+        top: 4%;
+
+    }
+    .na{
+        margin-top: 5%;
+    }
+}
+@media (max-width:1070px){
+
+    .cajaes{
+        margin-top: 2%;
+    }
+    .texto{
+        margin-top: 10%;
+    }
+    .texto p{
+        margin-top: 2rem;
+        line-height: 1;
+    }
+    .barra img{
+        width: 40%;
+    }
+    .texto{
+        animation-name: lol;
+        animation-duration: 2s;
+    }
+    @keyframes lol{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: .5;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+}
+@media(max-width:797px){
+    .barra img{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        margin-top: 8%;
+    }
+}
+@media(max-width:1060px){
+    .contenedorbra{
+        display: flex;
+        flex-direction:column;
+
+    }
+    .obra{
+        width:80%;
+        margin: 2% 10%;
+    }
+    .obra p{
+        width: 80%;
+        margin: 2% 10%;
+    }
+}
+@media(max-width:615px){
+.categorias{
+    height: 50rem;
+    
+    
+}
+
+}
+@media (max-width:1070px){
+    .barr {
+       display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right:3rem;
+        margin-left: - 10px;
+        text-align:center;
+    }
+}
+@media (max-width:1070px){
+    .barr{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin:1% 10%;
+        position: relative;
+        top: 4%;
+
+    }
+    .na{
+        margin-top: 5%;
+    }
+}
+@media (max-width:1300px){
+    .main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height:400rem;
+        align-items: center;
+    }
+    .categoria{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .Categoriascaja h2{
+        margin-top: 40%;
+    }
+    .Categoriascaja{
+        position:relative;
+        top: -15rem;
+    }
+    .obraspopular{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        position:relative;
+        top: -5rem;
+    }
+    
+    
+    .obra{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin: 0% 5%;
+    }
+    .contenedorbra{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenedorbra img{
+        width: 35rem;
+        height: 50rem;
+    }
+    .contenedorbra p{
+        width:35rem;
+        text-align: center;
+    }
+    .obraspopular h2{
+        text-align: center;
+    }
+.categoria{
+    width: 90%;
+    margin: 0% 5%;
+}
+     
+   .curses{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       margin-left: -4rem;
+       margin-right: 4rem;
+       text-align: center;
+     } 
+     .curses p{
+width: 90%;
+
+     }
+    
+}
+
+
+
+
+

@@ -1,0 +1,93 @@
+@media (max-width:1070px){
+
+    .cajaes{
+        margin-top: 2%;
+    }
+    .texto{
+        margin-top: 10%;
+    }
+    .texto p{
+        margin-top: 2rem;
+        line-height: 1;
+    }
+    .barra img{
+        width: 40%;
+    }
+    .texto{
+        animation-name: lol;
+        animation-duration: 2s;
+    }
+    @keyframes lol{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: .5;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    .frases p{
+        width: 80;
+        margin: 6% 10%;
+    }
+}
+@media(max-width:797px){
+    .barra img{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        margin-top: 8%;
+    }
+}
+@media(max-width:1190px){
+    .nosotros-videote{
+        display: flex;
+        flex-direction: column;
+    }
+    .nostext{
+        width: 60%;
+        margin: 2% 20%;
+    }
+    .nostext p{
+        text-align: center;
+    }
+}
+@media (max-width:1190px){
+    .video{
+        width: 95%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .video video{
+        width: 80%;
+       margin-left: 10%;
+       margin-right:10%;
+        height: 30%;
+        
+    }
+    .textodo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .texto2{
+        margin-top: 4%;
+    }
+    .texto3{
+        margin-top: 10%;
+    }
+    .zelda{
+        width: 100%;
+        text-align: center;
+        margin-left: -35rem;
+    }
+}

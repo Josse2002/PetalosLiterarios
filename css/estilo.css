@@ -1,0 +1,673 @@
+html{
+    font-size: 62.5%;
+    width:100%;
+}
+html{
+    font-size: 62.5%;
+    
+}
+*{
+    box-sizing: border-box;
+}
+/* scroll personalizado */
+body::-webkit-scrollbar{
+    width:10px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+}
+
+/* estilos del pushbar */
+/* cerrar pushbar */
+.editpush span{
+    position:relative;
+    left:90%;
+    top:1rem;;
+    cursor: pointer;
+   
+    color: white;
+}
+.editpush {
+    background: rgba(0, 0, 0, 0.753);
+    background-size: 100%; 
+    color: white;
+    height: 60rem;
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 94%, 50% 100%, 0 95%, 0 0); */
+    clip-path: ellipse(98% 58% at 49% 41%);
+    
+   
+}
+button{
+    
+    background:  transparent;
+    border:none;
+    position:relative;
+    left:90%;
+    top:1rem;;
+    cursor: pointer;
+
+}
+.editpush h2{
+    font-size:4rem;
+    margin-top:-1rem;
+    text-align: center;
+}
+.push{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    width:28.3%;
+    margin: 1% 3%;
+    
+}
+.position{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.place label{
+    text-align:center;
+}
+.place input::placeholder{
+    color:rgb(255, 255, 255);
+    text-align:center; 
+}
+.place input:placeholder-shown{
+    color:white;
+}
+.place input{
+    background: rgba(0, 0, 0, 0.582);
+    color:white;
+    padding: 1rem 1%;
+    border: none;
+    border-radius: 20px;
+    height: 5rem;
+    
+
+}
+.botonp{
+    cursor: pointer;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    background: rgb(185, 44, 20);
+    color: white;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    border:none;
+    border-radius:10px;
+}
+
+
+
+    body{
+     width:100%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+      font-size: 1.6rem;
+      line-height: 2;
+     
+      margin: 0px;
+      background: rgb(19, 21, 25)
+    }
+.Header{
+    background: url(../IMG/HEADER.jpg);
+    background-size: cover;
+   width: 100%;
+    height: 70rem;
+    clip-path: polygon(50% 0%, 100% 0, 100% 86%, 50% 100%, 0 89%, 0 0);
+    animation-name: estilo;
+    animation-duration: 3s;
+}
+
+.ir-arriba{
+    display: none;
+    padding: 20px;
+    background: rgb(195, 40, 66);
+    font-size: 3rem;
+    border-radius:500px;
+    color:white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    z-index:2;
+}
+
+
+
+@keyframes estilo{
+    0%{
+        height: 20rem;
+
+     }
+    100%{
+        height: 70rem;
+    }
+}
+.barra{
+    width:99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    align-items: center;
+    text-align: center;
+    padding-top:3rem;
+   
+}
+.nav{
+    width: 100%;
+}
+
+
+
+.barra img{
+    width: 20%;
+}
+.barra a{
+    color: white;
+   text-decoration: none;
+   font-size: 2rem;
+   margin-left: 4%;
+   
+
+}
+
+
+
+.texto{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 0.5;
+    margin-top: 6%;
+}
+.cajaes a{
+    color: white;
+    padding: .5rem 5rem;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 150%;
+    margin-top: 10%;
+    
+    
+}
+.columnas a{
+    color: rgb(78, 77, 75);
+}
+.columnas a:hover{
+    color: rgb(138, 137, 135);
+    transition: 1s;
+}
+.cajaes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Iconos{
+    width: 100%
+}
+
+.columnastodo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%rem;
+    height: 10%rem;
+    
+}
+/* minimo */
+.columnas img{
+width: 20%rem;
+height: 20rem;
+}
+.columnas{
+    margin-left: 1rem;
+    text-align: center;
+    width: 100%;
+   
+}
+
+
+.columnas h3{
+    color: white;
+    font-size: 2rem;
+}
+.columnas p{
+    color: rgb(78, 77, 75);
+   width: 40%rem;
+   margin:1% 3%;
+
+}
+.escojer{
+ display: flex;
+ justify-content: center;
+}
+.text{
+    margin-top: 3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+
+.main{
+    clip-path: polygon(50% 12%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    background: black;
+    margin-top: 3rem;
+    display: flex;
+    height: 150rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.categoria{
+    display:flex;
+    flex-direction:column;
+}
+
+.Iconos h2{
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+.Categoriascaja{
+    display: flex;
+    flex-direction: column;
+    margin-left:1%;
+    margin-right:1%;
+
+}
+.Categoriascaja h2{
+    margin-top: 107%;
+    /* poner despues en media mas del 90 */
+    color: white;
+    font-size: 250%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.categoria a{
+    margin-left: 4%;
+    font-size: 130%;
+    color: white;
+    text-decoration: none;
+    margin-top: 3rem;
+   
+}
+ 
+
+
+
+
+.contenedorbra{
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+
+.contenedorbra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2rem   
+}
+.obra img{
+    width: 29rem ;
+    height: 40rem;
+}
+.obra{
+    width: 29rem ;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transform: translateY(10px);
+    transition: all ease .5s;
+}
+.obra:hover{
+    transform: translateY(-10px);
+    transition: all ease .5s;
+}
+
+
+.obra p{
+    color: white;
+}
+.obraspopular h2{
+color: white;
+margin-top: 19%;
+color: white;
+font-size: 4rem;
+text-align:center;
+
+
+}
+.obra a{
+    color: white;
+    padding: .5rem 5rem;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 150%;
+}
+.cajae{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cajae a{
+    color: white;
+    padding: 1% 2%;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 150%;
+   
+}
+.curses p{
+    color: rgb(109, 99, 99);
+    width: 70%;
+    text-align: center;
+    margin-top: 8rem;
+    position: relative;
+    left: 8%;
+
+}
+.curses a{
+    color: white;
+    padding: 1% 3%;
+    border: none;
+    background: rgb(224, 20, 5);
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 2rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom:5%;
+    position: relative;
+    left:8%;
+   
+}
+.curses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    
+}
+/* poner enfrente el video */
+.nosotros-videote{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5%;
+}
+.video{
+    margin-right:6%;
+    width:96%; 
+}
+
+
+.nostext{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 2%;
+    margin-right:1%;
+
+
+}
+.nostext p{
+    margin-top:1%;
+    text-align: justify;
+}
+.nos h2{
+    color: white;
+    font-size:300%;
+    text-align:center;
+}
+.nostext a{
+    color: white;
+    padding: 1% 5%;
+    border: solid 2px white;
+    margin-top: 1%;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 150%;
+}
+.formulario{
+ background: rgb(224, 20, 5);
+ /* clip-path: polygon(49% 40%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);*/
+ height: 100rem;
+ /* clip-path: polygon(50% 16%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0); */
+ clip-path: polygon(50% 16%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
+} 
+.todoform{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    top: 25rem;
+}
+.form{
+    margin-right: 3rem;
+    background:  rgb(180, 33, 22);
+    border-radius: 20px;
+    width: 45%;
+    height: 60rem;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+
+}
+.form h2{
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 200%;
+}
+.anuncio{
+    position:relative;
+    top: 40%;
+    margin-left: 1rem;
+    line-height: 1;
+}
+
+
+.entradas .boton {
+    margin-top: 5%;
+   
+    color: white;
+    padding: 1% 5%;
+    border: none;
+    background: rgba(255, 255, 255, 0.055);
+
+    
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 150%;
+    height: 6rem;
+    
+}
+.entradas input{
+    width: calc(40rem - 20%);
+    height: 5rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.616);
+    margin-bottom: 4%;
+   
+}
+.entradas label{
+    margin-top: 1rem;
+    color: white;
+    font-size:150%;
+}
+.anuncio h3{
+    color:white;
+    width: 100%;
+    font-size:3rem;
+    margin-bottom: -3rem;
+}
+.anuncio h2{
+    color: white;
+    font-size:550%;
+}
+.comentario img{
+    border-radius: 500rem;
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 8%;
+    
+    transition: all ease .5s;
+}
+
+/* darle color de fondo */
+.say{
+    background: white;
+    z-index: -1;
+    position: relative;
+    top: -18rem;
+    height: 140rem;
+}
+.comentario h4{
+    color:rgb(0, 0, 0);
+}
+.comentario{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top:15rem;
+ 
+  margin-right:10rem;
+
+
+}
+.watsay h2{
+    font-size:250%;
+    text-align: center;
+}
+.watsay{
+    position:relative;
+    top:15rem;
+}
+.comentario h4{
+    font-size: 150%;
+    margin-bottom:-1rem;
+    margin-top:-.5rem;
+}
+
+.columna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;;
+    top: -3rem;
+    
+}
+.barr img{
+    width: 14%;
+}
+.na a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    margin-left: 2rem;
+   
+}
+.barr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 5%;
+    position: relative;
+    top: -10rem;
+    z-index: 2;
+}
+
+.textoo p{
+    color: white;
+    text-align:center;
+    width: 60%;
+}
+.textoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* idiomas */
+.idioma{
+    text-align:center;
+    width:42%;
+    margin: 0% 4%;
+    background: rgba(255, 255, 255, 0.061);
+    border-radius: 10px;
+    transform: translateY(5px);
+    transition: all .5s ease;
+}
+.idioma h4{
+    font-size: 3rem;
+    margin-top:0rem;
+}
+.subemu{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0% 10%;
+    padding: 2rem;
+    
+}
+.subemu a{
+    color:white;
+    text-decoration: none;
+    font-size:2rem;
+}
+.conf{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.idioma:hover{
+    transform: translateY(-5px);
+    transition: all .5s ease;
+}
+.editpush {
+    background: rgba(0, 0, 0, 0.753);
+    background-size: 100%; 
+    color: white;
+    height: 60rem;
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 94%, 50% 100%, 0 95%, 0 0); */
+    clip-path: ellipse(98% 58% at 49% 41%);
+    
+   
+}
+/* Agregar los idiomas que esta arrib a todo el documento,arreglar el height hasta arriba y quitar lenguaje de todas copiar junto a estilos */

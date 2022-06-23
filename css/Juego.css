@@ -1,0 +1,569 @@
+
+html{
+    font-size: 62.5%
+}
+html{
+    font-size: 62.5%
+}
+/* estilos del pushbar */
+/* cerrar pushbar */
+.editpush span{
+    position:relative;
+    left:90%;
+    top:1rem;;
+    cursor: pointer;
+   
+    color: white;
+}
+.editpush {
+    background: rgba(0, 0, 0, 0.753);
+    background-size: 100%; 
+    color: white;
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 94%, 50% 100%, 0 95%, 0 0); */
+    clip-path: ellipse(98% 58% at 49% 41%);
+    
+   
+}
+button{
+    
+    background:  transparent;
+    border:none;
+    position:relative;
+    left:90%;
+    top:1rem;;
+    cursor: pointer;
+
+}
+.editpush h2{
+    font-size:4rem;
+    margin-top:-1rem;
+    text-align: center;
+}
+.push{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    width:28.3%;
+    margin: 1% 3%;
+    
+}
+.position{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.place label{
+    text-align:center;
+}
+.place input::placeholder{
+    color:rgb(255, 255, 255);
+    text-align:center; 
+}
+.place input:placeholder-shown{
+    color:white;
+}
+.place input{
+    background: rgba(0, 0, 0, 0.582);
+    padding: 1rem 1%;
+    border: none;
+    border-radius: 20px;
+    height: 5rem;
+    
+
+}
+.botonp{
+    cursor: pointer;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    background: rgb(185, 44, 20);
+    color: white;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    border:none;
+    border-radius:10px;
+}
+
+
+
+
+
+
+    body{
+     width: 100%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.6rem;
+      line-height: 2;
+      margin-left: 0px;
+    
+      background: rgb(19, 21, 25)
+    }
+.Header{
+    background: url(../IMG/HEADER.jpg);
+    background-size: 100%;
+   width: 100%;
+    height: 20rem;
+    clip-path: polygon(50% 0%, 100% 0, 100% 86%, 50% 100%, 0 89%, 0 0);
+    /* llamando la animacion y poniendosela al header */
+    animation-name: estilo;
+    animation-duration: 3s;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 4rem;
+    align-items: center;
+}
+.barra img{
+    width: 30rem;
+}
+.entrada h1{
+    margin-bottom: 3rem;
+}
+.nav{
+    text-align:center;
+}
+
+
+.barra a{
+    
+    color: white;
+   text-decoration: none;
+   font-size: 2rem;
+   margin-left: 2rem;
+
+}
+.texto h{
+    margin-top: 2rem;
+}
+
+.menu img{
+    width: 3rem;
+    cursor: pointer;
+   
+}
+
+
+.texto{
+opacity: 0;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 0.5;
+    margin-top: 9rem;
+    animation-name: lol;
+    animation-duration: 1.7s; 
+}
+@keyframes lol{
+0%{
+    opacity: 1;
+}
+50%{
+    opacity: 1;
+}
+75%{
+   opacity:1;
+}
+85%{
+    opacity: .5;
+}
+100%{
+    opacity: 0;
+}
+}
+.cajaes a{
+    color: white;
+    padding: 1rem 3rem;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 2rem;
+}
+.cajaes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+    animation-name: lol;
+    animation-duration: 2s; 
+}
+/* estilo de la barra que baja (efectos) */
+@keyframes estilo{
+    0%{
+height: 70rem;
+     }
+    100%{
+height: 20rem;
+width: 100%;
+    }
+}
+/* todo lo que sigue debajo */
+/* entrada al sitio */
+.entrada h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.entrada h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: -4rem
+}
+.entrada p{
+    color: rgb(93, 90, 90);
+    text-align: center;
+    width: 80%;;
+
+    
+}
+.entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 134ssrem;
+}
+.imagenes img{
+    width: 30rem;
+    margin-top: 3rem;
+}
+.intro{
+    
+    background: rgb(224, 20, 5);
+    height: 100rem;
+    clip-path: polygon(50% 16%, 100% 0, 100% 94%, 50% 100%, 0 94%, 0 0);
+
+    
+
+}
+.contenedor img{
+    width: 900px;
+    border-radius: 10px;
+    
+    
+   
+}
+.contenedor{
+    width: 900px;
+   margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    top: 20rem;
+    
+}
+.contenedor ul{
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+
+    animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+    0%{
+        margin-left: 0px;
+    }
+    20%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-left: -900px;
+    
+    }
+    45%{margin-left: -900px;
+    }
+    50%{
+        margin-left: -1800px;
+        }
+        70%{
+            margin-left:-1800px;
+        }
+        75%{
+            margin-left: -2700px;
+        }
+        100%{
+            margin-left: -2700px;
+        }
+    
+}
+.textop {
+    color: white;
+    text-align:center;
+    position: relative;
+    top: 20rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.textop p{
+    width: 60%;
+    margin: 2% 20%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align:center
+    
+}
+.textop h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.comentario h4{
+    color:rgb(255, 255, 255);
+    font-size:6rem;
+}
+.comentario{
+    width: 28%;
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+  margin-left: 2%;
+  position: relative;
+  top:15rem;
+  margin-right:8rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.308);
+  padding: 4% 1%;
+  margin-top: 2%;
+  border-radius: 10px;
+
+
+}
+.comentario p{
+    color: rgb(73, 72, 72);
+    margin: 4% 10%;
+}
+
+/* scroll personalizado */
+body::-webkit-scrollbar{
+    width:10px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.137);
+    border-radius: 5px;
+}
+
+.columnacome{
+    position: relative;
+    top: -8rem;
+}
+.watsay{
+    position: relative;
+    top:-3rem;
+    color: white;
+}
+.watsay h2{
+    font-size:4rem;
+    text-align: center;
+}
+.watsay{
+    position:relative;
+    top:5rem;
+}
+.comentario h4{
+    font-size: 2rem;
+    margin-bottom:-1rem;
+}
+.comentario img{
+    border-radius: 500rem;
+    width: 60%;
+   
+    margin-left: 20%;
+}
+
+
+.columna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.barr img{
+    width: 15rem;
+    height: 15rem;
+}
+.na a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 2rem;
+    
+   
+}
+.na{
+    text-align:center;
+}
+.barr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 3rem;
+    position: relative;
+    top: -5rem;
+}
+.textoo p{
+    color: white;
+    text-align:center;
+    width: 80%;
+    margin: 4% 10%;
+
+}
+.textoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.obrasgana{
+    position: relative;
+    top: 10rem;
+    height:100rem;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(50% 0%, 100% 9%, 100% 90%, 50% 100%, 0 91%, 0 9%);
+}
+.obra img{
+    width: 29rem;
+    height: 40rem;
+}
+.obra{
+    margin-bottom:2rem;
+    width: 29rem ;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(47, 41, 41, 0.308);
+   padding:3rem;
+   border-radius: 10px;
+    
+}
+.obra p{
+    color: white;
+    text-align:center;
+}
+.obraspopular h2{
+color: white;
+margin-top: 20rem;
+color: white;
+font-size: 4rem;
+display: flex;
+justify-content: center;
+
+}
+.todoo{
+    position: relative;
+    top: 10rem;
+}
+.todoo h2{
+    color:white;
+    font-size: 4rem;
+    text-align: center;
+}
+.obra a{
+    color: white;
+    padding: .5rem 5rem;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 2rem;
+}
+.cajae{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cajae a{
+    color: white;
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 2rem;
+   
+}
+.contenedorbra{
+    display:flex;
+    justify-content: space-between;
+   position:relative;
+   top:10rem;
+}
+footer{
+    margin-top: 15rem;
+}
+.obra h2{
+    color:white;
+    font-size:2rem;
+
+}
+.ir-arriba{
+    display: none;
+    padding: 20px;
+    background: rgb(195, 40, 66);
+    font-size: 3rem;
+    border-radius:500px;
+    color:white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    z-index:2;
+}
+/* idiomas */
+.idioma{
+    text-align:center;
+    width:42%;
+    margin: 0% 4%;
+    background: rgba(255, 255, 255, 0.061);
+    border-radius: 10px;
+    transform: translateY(5px);
+    transition: all .5s ease;
+}
+.idioma h4{
+    font-size: 3rem;
+    margin-top:0rem;
+}
+.subemu{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0% 10%;
+    padding: 2rem;
+    
+}
+.subemu a{
+    color:white;
+    text-decoration: none;
+    font-size:2rem;
+}
+.conf{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.idioma:hover{
+    transform: translateY(-5px);
+    transition: all .5s ease;
+}
+.editpush {
+    background: rgba(0, 0, 0, 0.753);
+    background-size: 100%; 
+    color: white;
+    height: 60rem;
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 94%, 50% 100%, 0 95%, 0 0); */
+    clip-path: ellipse(98% 58% at 49% 41%);
+    
+   
+}
+
+

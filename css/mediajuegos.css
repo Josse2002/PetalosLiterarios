@@ -1,0 +1,201 @@
+@media (max-width:1070px){
+
+     .cajaes{
+         margin-top: 2%;
+     }
+     .texto{
+         margin-top: 10%;
+     }
+     .texto p{
+         margin-top: 2rem;
+         line-height: 1;
+     }
+     .barra img{
+         width: 40%;
+     }
+ }
+ @media (min-width:973px){
+      .cajaes{
+          margin-top: -5%;
+      }
+     
+  }
+
+ @media(max-width:945px){
+
+.barra img{
+    display:none;
+}
+
+.nav{
+    width: 100%;
+    margin-top: 6rem;
+}
+.contenedor img{
+    width: 450px;
+}
+.contenedor{
+    width: 450px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    top: 20rem;
+}
+.contenedor ul{
+    animation: slide 20s infinite alternate;
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+}
+@keyframes slide{
+    0%{
+        margin-left: 0px;
+    }
+    20%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-left: -450px;
+    
+    }
+    45%{margin-left: -450px;
+    }
+    50%{
+        margin-left: -900px;
+        }
+        70%{
+            margin-left:-900px;
+        }
+        75%{
+            margin-left: -1350px;
+        }
+        100%{
+            margin-left: -1350px;
+        }
+    
+}
+say{
+    position: relative;
+    top: -14rem;
+    height: 300rem;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+.obrasgana{
+    height: 40rem;
+}
+.comentario{
+    width:70%;
+    margin-right:15%;
+    margin-left: 15%;
+    
+}
+.comentario img{
+    width: 40%;
+    display: flex;
+    margin: 4% 30%;
+}
+.comentario p{
+    width: 60%;
+    margin: 4% 20%;
+    
+}
+.todoo{
+   position: absolute;
+   top: 7%;
+
+}
+.obra{
+    width: 60% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+}
+.obra p{
+    width: 100%;
+}
+.comentario h4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedorbra{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+@media(max-width:1058px){
+    .comentario img{
+        width: 40%;
+        display: flex;
+        margin: 4% 30%;
+    }
+    .comentario p{
+        width: 60%;
+        margin: 4% 20%;
+        
+    }
+    .todoo{
+       position: absolute;
+       top: 7%;
+    
+    }
+    .obra{
+        width: 60% ;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 8%;
+    }
+    .obra p{
+        width: 100%;
+    }
+    .comentario h4{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .obrasgana{
+        height: 200rem;
+    }
+    .contenedorbra{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:571px){
+    .obrasgana{
+        height: 225rem;
+    }
+}
+@media (max-width:1070px){
+    .barr {
+       display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right:3rem;
+        margin-left: - 10px;
+        text-align:center;
+    }
+}
+@media (max-width:1070px){
+    .barr{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin:1% 10%;
+        position: relative;
+        top: 4%;
+
+    }
+    .na{
+        margin-top: 5%;
+    }
+}
